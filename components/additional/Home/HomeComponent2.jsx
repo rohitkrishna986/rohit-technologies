@@ -13,16 +13,24 @@ const HomeComponent2 = () => {
             A technology-integrated digital marketing agency Based in India for
             web development, branding, social media advertising, search engine
             marketing, and IT infrastructure. We unlock your digital potential
-            with cutting-edge solutions. Let's create something amazing
+            with cutting-edge solutions. Let&apos;s create something amazing
             together.
           </p>
           <div className="my-8 justify-center lg:justify-start flex gap-8">
-            <button className="inline-flex h-11 px-5 items-center border justify-center rounded-full bg-white text-black hover:bg-black hover:text-white hover:border hover:border-white transition-all duration-300">Contact Us</button>
+            <button className="inline-flex h-11 px-5 items-center border justify-center rounded-full bg-white text-black hover:bg-black hover:text-white hover:border hover:border-white transition-all duration-300">
+              Contact Us
+            </button>
             <GetQuoteButton name="Get Quote" />
           </div>
         </div>
         <div className="flex-1 flex justify-center pb-20 md:pb-0">
-            <Image className="rounded-lg" src="/assets/tech-img.jpg" height={350} width={350} alt="Build-Your-Own-Digital-Brand-Img" />
+          <Image
+            className="rounded-lg"
+            src="/assets/tech-img.jpg"
+            alt="Build Your Own Digital Brand Image"
+            height={350}
+            width={350}
+          />
         </div>
       </div>
     </div>

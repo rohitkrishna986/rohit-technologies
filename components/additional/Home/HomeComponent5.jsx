@@ -10,7 +10,7 @@ const HomeComponent5 = () => {
             Create a Search-Friendly Brand with Expert Content Deployment
           </h2>
           <p className="font-light text-white/80 text-justify lg:leading-8">
-            Optimizing your website's search engine ranking can increase online
+            Optimizing your website&apos;s search engine ranking can increase online
             visibility and attract more customers. Invest in SEO to stay ahead
             of competitors and adapt to algorithm changes.
           </p>
