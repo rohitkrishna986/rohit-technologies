@@ -32,12 +32,12 @@ const HomeComponent7 = () => {
         <div className="my-20 w-[80%] bg-black flex flex-col md:flex-row gap-6 justify-between items-center">
           <div className="w-[350px] h-[350px] border border-white/50 rounded-2xl flex flex-col justify-between items-center hover:-translate-y-2 transition-all duration-300 p-5">
             <p className="text-center text-white/80 text-sm">
-              "Team Rohit&apos;s SMM services have taken my business to the next
+              Team Rohit&apos;s SMM services have taken my business to the next
               level. Their team was creative, strategic, and highly responsive
               to my needs. They helped me develop a social media presence that
               aligns perfectly with my brand & business goals. My social media
               channels have seen an increase in engagement & followers,
-              resulting in more leads & sales."
+              resulting in more leads & sales.
             </p>
             <div className="flex">
               <img src="/assets/star4.svg" width={20} />
@@ -49,12 +49,12 @@ const HomeComponent7 = () => {
           </div>
           <div className="w-[350px] h-[350px] border border-white/50 rounded-2xl flex flex-col justify-between items-center hover:-translate-y-2 transition-all duration-300 p-5">
             <p className="text-center text-white/80 text-sm">
-              "Team Rohit did an exceptional job with my company&apos;s
+              Team Rohit did an exceptional job with my company&apos;s
               branding. They were attentive, responsive, and took the time to
               understand my vision & goals. They provided me with a variety of
               design options & made sure that the final product accurately
               reflected my brand&apos;s identity. My brand now stands out in the
-              market & resonates with the target audience."
+              market & resonates with the target audience.
             </p>
             <div className="flex">
               <img src="/assets/star4.svg" width={20} />
@@ -67,12 +67,12 @@ const HomeComponent7 = () => {
           </div>
           <div className="w-[350px] h-[350px] border border-white/50 rounded-2xl flex flex-col justify-between items-center hover:-translate-y-2 transition-all duration-300 p-5">
             <p className="text-center text-white/80 text-sm">
-              "They were professional, prompt, and provided high-quality
+              They were professional, prompt, and provided high-quality
               translations that accurately captured the nuances of the language.
               Their attention to detail and commitment to delivering a top-notch
               product was evident throughout the entire process. I will
               definitely be using Team Rohit&apos;s translation services again
-              in the future."
+              in the future.
             </p>
             <div className="flex">
               <img src="/assets/star4.svg" width={20} />

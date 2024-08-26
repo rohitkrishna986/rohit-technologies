@@ -33,7 +33,7 @@ const HomeComponent8 = () => {
             <AccordionContent>
               India has many digital marketing agencies and platforms that offer
               a variety of services, including SEO, social media, and PPC. When
-              choosing a service, you can consider things like the platform's
+              choosing a service, you can consider things like the platform&apos;s
               user base, features, and targeting options.
             </AccordionContent>
           </AccordionItem>
