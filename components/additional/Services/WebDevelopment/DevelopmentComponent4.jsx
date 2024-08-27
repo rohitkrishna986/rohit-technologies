@@ -1,4 +1,5 @@
 import Image from "next/image";
+import WebImage from "@/public/assets/Services/WebDevelopment/web-Development-Company-3.png"
 
 const DevelopmentComponent4 = () => {
   return (
@@ -26,7 +27,7 @@ const DevelopmentComponent4 = () => {
           <div className="flex-1 hidden md:flex justify-start">
             <Image
               className="rounded-lg "
-              src="/assets/services/WebDevelopment/web-Development-Company-3.png"
+              src={WebImage}
               alt="Build Your Own Digital Brand Image"
               height={450}
               width={450}
@@ -56,7 +57,7 @@ const DevelopmentComponent4 = () => {
           <div className="flex-1 md:hidden flex pt-10 justify-start">
             <img
               className="rounded-lg "
-              src="/assets/services/WebDevelopment/web-Development-Company-3.png"
+              src={WebImage}
               alt="Build Your Own Digital Brand Image"
               height={450}
               width={450}
