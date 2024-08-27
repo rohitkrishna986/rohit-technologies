@@ -56,7 +56,7 @@ const HomeComponent8 = () => {
             <AccordionContent>
               Success is measured through various key performance indicators (KPIs)
               such as website traffic, conversion rates, ROI, and more. We provide
-              regular reports to keep you informed of your campaign’s progress.
+              regular reports to keep you informed of your campaign&apos;s progress.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-4" className="py-2">

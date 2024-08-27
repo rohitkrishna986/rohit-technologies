@@ -73,3 +73,7 @@
 * {
   font-family: "Poppins";
 }
+
+.scrollbar-none::-webkit-scrollbar{
+  display: none;
+}

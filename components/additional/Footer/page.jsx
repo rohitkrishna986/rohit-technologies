@@ -25,7 +25,7 @@ const Footer = () => {
             <a href="https://www.linkedin.com/in/rohitkrishna-s/" target="_blank" className='cursor-pointer hover:bg-white hover:text-black p-1 rounded-lg'><FaLinkedin/></a>
         </div>
         <div>
-          <p className='flex items-center text-xs gap-2 mt-4'><span className='text-xs'><FaRegCopyright/></span>All Rights Reserved</p>
+          <p className='flex items-center text-xs gap-1 mt-4'><span className='text-xs'><FaRegCopyright/></span>All Rights Reserved</p>
         </div>
       </div>
     </div>
