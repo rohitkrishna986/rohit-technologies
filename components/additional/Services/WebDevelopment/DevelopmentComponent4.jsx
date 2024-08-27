@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const DevelopmentComponent4 = () => {
   return (
     <div className="py-10 bg-black">
@@ -22,7 +24,7 @@ const DevelopmentComponent4 = () => {
       <div className="h-full p-4 pt-10 text-white bg-black flex justify-center border-none">
         <div className="flex flex-col lg:flex-row h-full w-full lg:w-[80vw] items-center py-2">
           <div className="flex-1 hidden md:flex justify-start">
-            <img
+            <Image
               className="rounded-lg "
               src="/assets/services/WebDevelopment/web-Development-Company-3.png"
               alt="Build Your Own Digital Brand Image"
