@@ -1,15 +1,8 @@
 import Image from 'next/image';
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
 
 const HomeComponent7 = () => {
   return (
-    <div className="bg-black text-white flex flex-col justify-center items-center pb-10 border-none">
+    <div className="bg-black text-white flex flex-col justify-center items-center pb-10 border-none overflow-hidden">
       <h2 className="font-semibold">Rated 4.9 of 5</h2>
       <div className="w-[40rem] h-10 relative">
         {/* Gradients */}

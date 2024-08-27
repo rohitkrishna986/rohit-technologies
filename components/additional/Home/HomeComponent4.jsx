@@ -14,7 +14,7 @@ const HomeComponent4 = () => {
     "Advertisement",
   ];
   return (
-    <div className="bg-black text-white flex flex-col justify-center items-center border-none">
+    <div className="bg-black text-white flex flex-col justify-center items-center border-none overflow-hidden">
       <h2 className="font-semibold">
         <FlipWords words={words} />
       </h2>

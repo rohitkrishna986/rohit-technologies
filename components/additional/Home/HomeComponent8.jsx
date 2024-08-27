@@ -7,7 +7,7 @@ import {
 
 const HomeComponent8 = () => {
   return (
-    <div className="bg-black text-white flex flex-col justify-center items-center pb-10 border-none">
+    <div className="bg-black text-white flex flex-col justify-center items-center pb-10 border-none overflow-hidden">
       <h2 className="font-semibold text-xl md:text-2xl">FAQ</h2>
       <div className="w-[40rem] h-10 relative">
         {/* Gradients */}

@@ -3,7 +3,7 @@ import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 const HomeComponent3 = () => {
   return (
     <>
-      <div className="bg-black text-white flex flex-col justify-center items-center pb-10 border-none">
+      <div className="bg-black text-white flex flex-col justify-center items-center pb-10 border-none overflow-hidden">
         <h2 className="font-semibold">Our Strength</h2>
         <div className="w-[40rem] h-10 relative">
           {/* Gradients */}
