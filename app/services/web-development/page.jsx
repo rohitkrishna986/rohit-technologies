@@ -6,7 +6,7 @@ import DevelopmentComponent4 from "@/components/additional/Services/WebDevelopme
 
 const page = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
         <DevelopmentComponent1/>
         <DevelopmentComponent2/>
         <DevelopmentComponent3/>

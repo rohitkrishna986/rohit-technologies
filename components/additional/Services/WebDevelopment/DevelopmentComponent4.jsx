@@ -3,7 +3,7 @@ import WebImage from "@/public/assets/Services/WebDevelopment/web-Development-Co
 
 const DevelopmentComponent4 = () => {
   return (
-    <div className="py-10 bg-black">
+    <div className="py-10 bg-black overflow-hidden">
       <div className="bg-black text-white flex flex-col justify-center items-center border-none overflow-hidden">
         <h2 className="font-semibold">Brand Development</h2>
         <div className="w-[40rem] h-10 relative">
@@ -55,7 +55,7 @@ const DevelopmentComponent4 = () => {
             </div>
           </div>
           <div className="flex-1 md:hidden flex pt-10 justify-start">
-            <img
+            <Image
               className="rounded-lg "
               src={WebImage}
               alt="Build Your Own Digital Brand Image"
