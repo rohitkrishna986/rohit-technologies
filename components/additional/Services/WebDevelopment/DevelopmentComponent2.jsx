@@ -1,3 +1,6 @@
+import Image from "next/image";
+import WebImage from '@/public/assets/Services/WebDevelopment/Web-Development-1.gif'
+
 const DevelopmentComponent2 = () => {
   return (
     <div className="lg:h-[38rem] pt-4 text-white bg-black flex justify-center border-none">
@@ -35,9 +38,9 @@ const DevelopmentComponent2 = () => {
           </div>
         </div>
         <div className="flex-1 flex justify-end py-20 md:py-0">
-          <img
+          <Image
             className="rounded-lg bg-white p-5"
-            src="/assets/services/WebDevelopment/Web-Development-1.gif"
+            src={WebImage}
             alt="Build Your Own Digital Brand Image"
             height={450}
             width={450}

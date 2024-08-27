@@ -1,9 +1,11 @@
+import Image from "next/image";
+
 const DevelopmentComponent3 = () => {
   return (
     <div className="h-full p-4 pt-5 md:pt-16 text-white bg-black flex justify-center border-none">
       <div className="flex flex-col lg:flex-row h-full lg:h-[80vh] w-full lg:w-[80vw] items-center py-8">
         <div className="flex-1 hidden md:flex justify-start">
-          <img
+          <Image
             className="rounded-lg "
             src="/assets/services/WebDevelopment/Web-Development-2.gif"
             alt="Build Your Own Digital Brand Image"
@@ -30,7 +32,7 @@ const DevelopmentComponent3 = () => {
           </div>
         </div>
         <div className="flex-1 md:hidden flex justify-start">
-          <img
+          <Image
             className="rounded-lg "
             src="/assets/services/WebDevelopment/Web-Development-2.gif"
             alt="Build Your Own Digital Brand Image"
