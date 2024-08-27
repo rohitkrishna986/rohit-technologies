@@ -25,7 +25,7 @@ const DevelopmentComponent2 = () => {
             online marketplace.
           </p>
           <p className="font-light text-white/80 text-justify lg:leading-8">
-            Whether you're looking to build a new website from scratch, revamp
+            Whether you&apos;re looking to build a new website from scratch, revamp
             an existing site, or create a mobile app that engages your audience
             on the go, we have the expertise and creativity to deliver the
             results you need. Contact us today to learn more about how we can
