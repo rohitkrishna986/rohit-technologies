@@ -1,5 +1,6 @@
 import { Modal, ModalTrigger } from "@/components/ui/animated-modal";
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const ServicesComponent1 = () => {
@@ -47,10 +48,20 @@ const ServicesComponent1 = () => {
                   <Modal>
                     <ModalTrigger className="bg-transparent text-white flex justify-center group/modal-btn">
                       <span className="group-hover/modal-btn:translate-x-40 text-center transition duration-500">
-                        <span className="flex">View more<span className="text-2xl"><MdOutlineKeyboardArrowRight /></span></span>
+                        <span className="flex">
+                          View more
+                          <span className="text-2xl">
+                            <MdOutlineKeyboardArrowRight />
+                          </span>
+                        </span>
                       </span>
                       <div className="-translate-x-40 group-hover/modal-btn:translate-x-0 flex items-center justify-center absolute inset-0 transition duration-500 text-white z-20">
-                      <span className="text-2xl rounded-full border border-white p-2"><MdOutlineKeyboardArrowRight /></span>
+                        <Link
+                          href={card.link}
+                          className="text-2xl rounded-full border border-white p-2"
+                        >
+                          <MdOutlineKeyboardArrowRight />
+                        </Link>
                       </div>
                     </ModalTrigger>
                   </Modal>
@@ -78,36 +89,42 @@ const data = [
     name: "Website Development",
     desc: "Process of Creating User-Focused Websites",
     img: "https://www.zolvotech.com/wp-content/uploads/2023/03/Website-Development.png",
+    link: "/services/web-development",
   },
   {
     title: "Be Visible",
     name: "SEO",
     desc: "Ranking Higher in the Organic Search Results",
     img: "https://www.zolvotech.com/wp-content/uploads/2023/03/Search-Engine-Optimisation.png",
+    link: "/",
   },
   {
     title: "Reach to Your Target Audience",
     name: "Social Media Marketing",
     desc: "From Awareness to Conversion",
     img: "https://www.zolvotech.com/wp-content/uploads/2023/03/Social-Media-Marketing-2.png",
+    link: "/",
   },
   {
     title: "Turning Clicks into Customers",
     name: "Search Engine Marketing",
     desc: "Smart Strategies for Pay-Per-Click Success",
     img: "https://www.zolvotech.com/wp-content/uploads/2023/03/Search-Engine-Marketing-1.png",
+    link: "/",
   },
   {
     title: "The Art and Science of Design",
     name: "Branding",
     desc: "Research-Driven Process Delivers Measurable Outcomes",
     img: "https://www.zolvotech.com/wp-content/uploads/2023/03/Branding.png",
+    link: "/",
   },
   {
     title: "Strengthen Your Business",
     name: "IT Infrastructure",
     desc: "Get the Support You Need to Build and Maintain",
     img: "https://www.zolvotech.com/wp-content/uploads/2023/03/IT-Infrastructure-Solutions.png",
+    link: "/",
   },
 ];
 
