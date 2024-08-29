@@ -24,24 +24,28 @@ const NavigationMenuServices = () => {
 
           <NavigationMenuContent>
             <ul className="grid gap-1 py-2 md:w-[200px] lg:w-[300px] bg-black">
-              <ListItem
-                href="/services/web-development"
-                title="Website Development"
-              ></ListItem>
-              <ListItem
-                href="/"
-                title="Search Engine Optimisation (SEO)"
-              ></ListItem>
-              <ListItem
-                href="/"
-                title="Search Engine Marketing (SEM)"
-              ></ListItem>
-              <ListItem href="/" title="Branding & Content Writing"></ListItem>
-              <ListItem
-                href="/"
-                title="Social Media Marketing (SMM)"
-              ></ListItem>
-              <ListItem href="/" title="IT Infrastructure Services"></ListItem>
+              <ListItem title="Website Development">
+                <Link href={"/services/web-development"}>
+                  Website Development
+                </Link>
+              </ListItem>
+              <ListItem title="Search Engine Optimisation (SEO)">
+                <Link href={"/services/search-engine-optimisation"}>
+                  Search Engine Optimisation (SEO)
+                </Link>
+              </ListItem>
+              <ListItem title="Search Engine Marketing (SEM)">
+                <Link href={"/services/search-engine-marketing"}>Search Engine Marketing (SEM)</Link>
+              </ListItem>
+              <ListItem title="Branding & Content Writing">
+                <Link href={"/services/branding-content-writing"}>Branding & Content Writing</Link>
+              </ListItem>
+              <ListItem title="Social Media Marketing (SMM)">
+                <Link href={"/"}>Social Media Marketing (SMM)</Link>
+              </ListItem>
+              <ListItem title="IT Infrastructure Services">
+                <Link href={"/"}>IT Infrastructure Services</Link>
+              </ListItem>
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
@@ -65,10 +69,10 @@ const ListItem = React.forwardRef(
             )}
             {...props}
           >
-            <div className="text-sm font-light leading-none">{title}</div>
-            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+            <div className="text-sm font-light leading-none">{children}</div>
+            {/* <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
               {children}
-            </p>
+            </p> */}
           </a>
         </NavigationMenuLink>
       </li>

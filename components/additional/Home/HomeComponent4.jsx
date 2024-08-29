@@ -102,7 +102,7 @@ const data = [
     name: "SEO",
     desc: "Ranking Higher in the Organic Search Results",
     img: "https://www.zolvotech.com/wp-content/uploads/2023/03/Search-Engine-Optimisation.png",
-    link: "/",
+    link: "/services/search-engine-optimisation",
   },
   {
     title: "Reach to Your Target Audience",
@@ -116,14 +116,14 @@ const data = [
     name: "Search Engine Marketing",
     desc: "Smart Strategies for Pay-Per-Click Success",
     img: "https://www.zolvotech.com/wp-content/uploads/2023/03/Search-Engine-Marketing-1.png",
-    link: "/",
+    link: "/services/search-engine-marketing",
   },
   {
     title: "The Art and Science of Design",
     name: "Branding",
     desc: "Research-Driven Process Delivers Measurable Outcomes",
     img: "https://www.zolvotech.com/wp-content/uploads/2023/03/Branding.png",
-    link: "/",
+    link: "/services/branding-content-writing",
   },
   {
     title: "Strengthen Your Business",

@@ -30,9 +30,9 @@ const DevelopmentComponent6 = () => {
           </p>
         </div>
       </div>
-      <div className="bg-black flex flex-col gap-5 justify-center items-center overflow-hidden py-5">
+      <div className="bg-black flex flex-col gap-5 justify-center items-center overflow-hidden p-2 md:p-0 py-5">
         <div className=" w-[60%] bg-black flex flex-col md:flex-row gap-5 justify-between items-center">
-          <div className="w-[350px] h-[350px] border bg-white/90 shadow-md shadow-white border-white/50 flex flex-col gap-5 justify-center items-center hover:-translate-y-1 transition-all duration-300 p-5">
+          <div className="w-[350px] h-[350px] border bg-gradient-to-br from-slate-100 via-slate-300 to-red-300 flex flex-col gap-5 justify-center items-center hover:-translate-y-1 transition-all duration-300 p-5">
             <span className="text-blue-600 bg-white p-4 rounded-full text-3xl">
               <FaUserGroup />
             </span>
@@ -43,7 +43,7 @@ const DevelopmentComponent6 = () => {
               competitors to ensure that your website stands out.
             </p>
           </div>
-          <div className="w-[350px] h-[350px] border bg-white/90 shadow-md shadow-white border-white/50 flex flex-col gap-5 justify-center items-center hover:-translate-y-1 transition-all duration-300 p-5">
+          <div className="w-[350px] h-[350px] border bg-gradient-to-br from-slate-100 via-slate-300 to-red-300 flex flex-col gap-5 justify-center items-center hover:-translate-y-1 transition-all duration-300 p-5">
             <span className="text-blue-600 bg-white p-4 rounded-full text-3xl">
               <MdDesignServices />
             </span>
@@ -55,7 +55,7 @@ const DevelopmentComponent6 = () => {
               your audience.
             </p>
           </div>
-          <div className="w-[350px] h-[350px] border bg-white/90 shadow-md shadow-white border-white/50 flex flex-col gap-5 justify-center items-center hover:-translate-y-1 transition-all duration-300 p-5">
+          <div className="w-[350px] h-[350px] border bg-gradient-to-br from-slate-100 via-slate-300 to-red-300 flex flex-col gap-5 justify-center items-center hover:-translate-y-1 transition-all duration-300 p-5">
             <span className="text-blue-600 bg-white p-4 rounded-full text-3xl">
               <MdDevices />
             </span>
@@ -68,7 +68,7 @@ const DevelopmentComponent6 = () => {
           </div>
         </div>
         <div className="w-[60%] bg-black flex flex-col md:flex-row gap-5 justify-between items-center">
-          <div className="w-[350px] h-[350px] border bg-white/90 shadow-md shadow-white border-white/50 flex flex-col gap-5 justify-center items-center hover:-translate-y-1 transition-all duration-300 p-5">
+          <div className="w-[350px] h-[350px] border bg-gradient-to-br from-slate-100 via-slate-300 to-red-300 flex flex-col gap-5 justify-center items-center hover:-translate-y-1 transition-all duration-300 p-5">
             <span className="text-blue-600 bg-white p-4 rounded-full text-3xl">
               <TbBrandSpeedtest />
             </span>
@@ -79,7 +79,7 @@ const DevelopmentComponent6 = () => {
               delivering a smooth user experience.
             </p>
           </div>
-          <div className="w-[350px] h-[350px] border bg-white/90 shadow-md shadow-white border-white/50 flex flex-col gap-5 justify-center items-center hover:-translate-y-1 transition-all duration-300 p-5">
+          <div className="w-[350px] h-[350px] border bg-gradient-to-br from-slate-100 via-slate-300 to-red-300 flex flex-col gap-5 justify-center items-center hover:-translate-y-1 transition-all duration-300 p-5">
             <span className="text-blue-600 bg-white p-4 rounded-full text-3xl">
               <GrDeploy />
             </span>
@@ -90,7 +90,7 @@ const DevelopmentComponent6 = () => {
               seamless and successful launch.
             </p>
           </div>
-          <div className="w-[350px] h-[350px] border bg-white/90 shadow-md shadow-white border-white/50 flex flex-col gap-5 justify-center items-center hover:-translate-y-1 transition-all duration-300 p-5">
+          <div className="w-[350px] h-[350px] border bg-gradient-to-br from-slate-100 via-slate-300 to-red-300 flex flex-col gap-5 justify-center items-center hover:-translate-y-1 transition-all duration-300 p-5">
             <span className="text-blue-600 bg-white p-4 rounded-full text-3xl">
               <IoMdSettings />
             </span>

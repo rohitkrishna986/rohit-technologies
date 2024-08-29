@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import GetQuoteButton from "../GetQuoteButton";
 
 const HomeComponent5 = () => {
