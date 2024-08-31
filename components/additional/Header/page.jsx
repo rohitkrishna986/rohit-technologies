@@ -22,8 +22,7 @@ const Header = () => {
             <Link href={"/"} className="hover:font-normal">Home</Link>
             <div className="hover:font-normal"><NavigationMenuServices/></div>
             <li className="hover:font-normal">About Us</li>
-            <li className="hover:font-normal">Contact Us</li>
-            <li className="hover:font-normal">Blog</li>
+            <Link href={"/contact-us"} className="hover:font-normal">Contact Us</Link>
           </ul>
         </div>
         <div className="hidden lg:flex">

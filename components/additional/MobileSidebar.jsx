@@ -7,8 +7,7 @@ const MobileSidebar = ({ onClose }) => {
         <Link href="/" onClick={onClose}>Home</Link>
         <Link href="/services" onClick={onClose}>Services</Link>
         <Link href="/" onClick={onClose}>About Us</Link>
-        <Link href="/" onClick={onClose}>Contact Us</Link>
-        <Link href="/" onClick={onClose}>Blog</Link>
+        <Link href="/contact-us" onClick={onClose}>Contact Us</Link>
       </div>
     </div>
   );

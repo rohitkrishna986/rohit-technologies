@@ -103,7 +103,7 @@ const data = [
     name: "Social Media Marketing",
     desc: "From Awareness to Conversion",
     img: "https://www.zolvotech.com/wp-content/uploads/2023/03/Social-Media-Marketing-2.png",
-    link: "/",
+    link: "/services/social-media-marketing",
   },
   {
     title: "Turning Clicks into Customers",
@@ -124,7 +124,7 @@ const data = [
     name: "IT Infrastructure",
     desc: "Get the Support You Need to Build and Maintain",
     img: "https://www.zolvotech.com/wp-content/uploads/2023/03/IT-Infrastructure-Solutions.png",
-    link: "/",
+    link: "/services/it-infrastructure-solutions",
   },
 ];
 

@@ -41,10 +41,10 @@ const NavigationMenuServices = () => {
                 <Link href={"/services/branding-content-writing"}>Branding & Content Writing</Link>
               </ListItem>
               <ListItem title="Social Media Marketing (SMM)">
-                <Link href={"/"}>Social Media Marketing (SMM)</Link>
+                <Link href={"/services/social-media-marketing"}>Social Media Marketing (SMM)</Link>
               </ListItem>
               <ListItem title="IT Infrastructure Services">
-                <Link href={"/"}>IT Infrastructure Services</Link>
+                <Link href={"/services/it-infrastructure-solutions"}>IT Infrastructure Services</Link>
               </ListItem>
             </ul>
           </NavigationMenuContent>
