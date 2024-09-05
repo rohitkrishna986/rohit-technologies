@@ -184,7 +184,7 @@ const page = () => {
             <div className="w-full flex justify-center items-center">
               <h2 className="font-semibold">Talk to me</h2>
             </div>
-            <div className="h-full flex p-6 gap-2 items-center">
+            <div className="h-full flex p-6 gap-2 items-center justify-center">
               <div className="bg-white w-[250px] h-[120px] flex flex-col justify-center rounded-lg border border-gray-400 shadow-md items-center">
                 <span className="text-[20px]">
                   <MdAddIcCall />
@@ -242,8 +242,8 @@ const page = () => {
             <div className="w-full h-[10%] mb-6 flex justify-center items-center">
               <h2 className="font-semibold">Write me your message</h2>
             </div>
-            <form onSubmit={onSubmit} className="flex flex-col gap-5 mb-8">
-              <div className="grid px-8 relative">
+            <form onSubmit={onSubmit} className="flex flex-col gap-5 mb-8 justify-center">
+              <div className="grid relative">
                 <label
                   htmlFor="name"
                   className="absolute top-0 text-gray-500 text-[14px] left-14 rounded-lg bg-white px-1"
@@ -259,7 +259,7 @@ const page = () => {
                   className="mt-3 bg-none outline-none text-sm p-4 rounded-lg border border-gray-400"
                 />
               </div>
-              <div className="grid px-8 relative">
+              <div className="grid relative">
                 <label
                   htmlFor="email"
                   className="absolute top-0 text-gray-500 text-[14px] left-14 rounded-lg bg-white px-1"
@@ -275,7 +275,7 @@ const page = () => {
                   className="mt-3 bg-none outline-none text-sm p-4 rounded-lg border border-gray-400"
                 />
               </div>
-              <div className="grid px-8 relative">
+              <div className="grid relative">
                 <label
                   htmlFor="message"
                   className="absolute top-0 text-gray-500 text-[14px] left-14 rounded-lg bg-white px-1"
